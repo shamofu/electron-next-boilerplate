@@ -14,15 +14,15 @@
   "author": "shamofu",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^7.1.6",
+    "autoprefixer": "^7.2.3",
     "babel-plugin-module-resolver": "^3.0.0",
     "babel-plugin-wrap-in-js": "^1.1.1",
-    "electron": "^1.7.9",
-    "electron-builder": "^19.46.9",
-    "eslint": "^4.12.0",
+    "electron": "^1.7.10",
+    "electron-builder": "^19.49.2",
+    "eslint": "^4.13.1",
     "eslint-plugin-react": "^7.5.1",
     "glob": "^7.1.2",
-    "next": "^4.1.4",
+    "next": "^4.2.1",
     "node-sass": "^4.7.2",
     "normalize.css": "^7.0.0",
     "postcss-easy-import": "^3.0.0",
@@ -31,7 +31,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "sass-loader": "^6.0.6",
-    "webpack": "^3.0.0"
+    "webpack": "^3.10.0"
   },
   "dependencies": {
     "app-root-path": "^2.0.1",
