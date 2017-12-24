@@ -3,7 +3,7 @@ import React from 'react';
 import stylesheet from '../styles/start.css';
 
 export default () =>
-  <div>
+  <React.Fragment>
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <p>Electron + Next</p>
-  </div>;
+  </React.Fragment>;
