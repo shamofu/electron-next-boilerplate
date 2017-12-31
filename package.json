@@ -6,28 +6,19 @@
   "scripts": {
     "start": "electron .",
     "build": "next build app/renderer && next export app/renderer",
-    "dist": "yarn run build && build --x64 --publish=never",
-    "lint": "eslint app/**",
-    "lint:fix": "yarn run lint --fix",
+    "dist": "yarn build && build --dir --x64 --publish=never",
+    "lint": "eslint app",
+    "lint:fix": "yarn lint --fix",
     "test": "echo \"Error: no test specified\""
   },
   "author": "shamofu",
   "license": "MIT",
   "build": {
     "files": [
-      "app/**/*",
+      "app",
       "!app/renderer",
       "app/renderer/out"
-    ],
-    "win": {
-      "target": "dir"
-    },
-    "mac": {
-      "target": "dir"
-    },
-    "linux": {
-      "target": "dir"
-    }
+    ]
   },
   "repository": {
     "type": "git",
