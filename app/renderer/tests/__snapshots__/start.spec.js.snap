@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page Start 1`] = `
+Array [
+  .c0 {
+  font-size: xx-large;
+  color: skyblue;
+}
+
+<p
+    className="c0"
+  >
+    Electron + Next
+  </p>,
+  <a
+    href="/caution"
+    onClick={[Function]}
+  >
+    Caution
+  </a>,
+]
+`;
