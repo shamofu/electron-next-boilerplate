@@ -5,8 +5,6 @@ A boilerplate for Electron + Next.
 
 ## Notice
 
-To keep up-to-date with advances in technologies, follow the projects below.
+To keep up-to-date with advances in technologies, follow the project below.
 
 - [Electron + Next.js](https://github.com/leo/electron-next-skeleton)
-- [Global Stylesheet example](https://github.com/zeit/next.js/tree/canary/examples/with-global-stylesheet)
-
