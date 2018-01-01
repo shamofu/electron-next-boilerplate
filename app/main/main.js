@@ -19,6 +19,7 @@ app.on('ready', async () => {
   
   mainWindow.once('ready-to-show', () => {
     mainWindow.show();
+    if (isDev) mainWindow.webContents.openDevTools();
   });
 
   const devPath = 'http://localhost:8000/start';
@@ -32,8 +33,6 @@ app.on('ready', async () => {
   const url = isDev ? devPath : prodPath;
   mainWindow.loadURL(url);
   mainWindow.setMenu(null);
-
-  if (isDev) mainWindow.webContents.openDevTools();
 });
 
 // Quit the app once all windows are closed
