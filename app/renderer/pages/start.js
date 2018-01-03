@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Paragraph = styled.p`
   font-size: xx-large;
   color: skyblue;
-`
+`;
 
 export default () =>
   <React.Fragment>
