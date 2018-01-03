@@ -8,7 +8,6 @@
     "build": "next build app/renderer && next export app/renderer",
     "dist": "yarn build && build --dir --x64 --publish=never",
     "lint": "eslint app",
-    "lint:fix": "yarn lint --fix",
     "test": "yarn build && jest"
   },
   "author": "shamofu",
