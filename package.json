@@ -1,6 +1,6 @@
 {
   "name": "electron-next-boilerplate",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "app/main/main.js",
   "description": "A boilerplate for Electron + Next.",
   "scripts": {
