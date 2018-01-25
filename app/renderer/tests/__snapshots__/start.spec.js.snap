@@ -2,13 +2,8 @@
 
 exports[`page Start 1`] = `
 Array [
-  .c0 {
-  font-size: xx-large;
-  color: skyblue;
-}
-
-<p
-    className="c0"
+  <p
+    className="jsx-600986976"
   >
     Electron + Next
   </p>,
