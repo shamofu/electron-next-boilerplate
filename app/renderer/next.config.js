@@ -1,8 +1,11 @@
-exports.webpack = (config) => Object.assign(config, {
-  target: 'electron-renderer'
-});
+const withTypescript = require('@zeit/next-typescript');
 
-exports.exportPathMap = () => ({
-  '/start': { page: '/start' },
-  '/caution': { page: '/caution' }
+module.exports = withTypescript({
+  webpack: (config) => Object.assign(config, {
+    target: 'electron-renderer'
+  }),
+  exportPathMap: () => ({
+    '/start': { page: '/start' },
+    '/caution': { page: '/caution' }
+  })
 });

@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default () =>
+export default () => (
   <React.Fragment>
     <Head>
       <title>Home</title>
@@ -17,4 +17,5 @@ export default () =>
       `}</style>
     </React.Fragment>
     <Link href='/caution'><a>Caution</a></Link>
-  </React.Fragment>;
+  </React.Fragment>
+);
