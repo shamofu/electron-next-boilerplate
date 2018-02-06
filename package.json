@@ -38,27 +38,11 @@
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ],
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
     "globals": {
       "ts-jest": {
         "babelConfig": {
-          "presets": [
-            [
-              "next/babel",
-              {
-                "preset-env": {
-                  "modules": "commonjs"
-                }
-              }
-            ]
-          ]
+          "presets": [["next/babel", { "preset-env": { "modules": "commonjs" } }]]
         }
       }
     }
