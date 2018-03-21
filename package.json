@@ -10,11 +10,11 @@
     "lint": "tslint app/**/*.ts{,x}",
     "test": "yarn build && jest"
   },
-  "author": "shamofu",
+  "author": "sham",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shamofu/electron-next-boilerplate.git"
+    "url": "git+https://github.com/sham/electron-next-boilerplate.git"
   },
   "build": {
     "files": [
