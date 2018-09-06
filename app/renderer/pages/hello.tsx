@@ -5,11 +5,10 @@ import Link from 'next/link'
 export default () => (
   <React.Fragment>
     <Head>
-      <title>Caution</title>
+      <title>Hello</title>
     </Head>
-    <h1>Caution</h1>
-    <p>If you add or remove some pages, <br />you need to edit exportPathMap() in next.config.js
-    before exporting.</p>
+    <h1>Hello!</h1>
+    <p>You're welcome.</p>
     <Link href='/start'><a>Back</a></Link>
   </React.Fragment>
 )

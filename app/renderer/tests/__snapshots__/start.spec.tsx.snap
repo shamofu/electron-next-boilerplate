@@ -8,7 +8,7 @@ Array [
     Electron + Next
   </p>,
   <a
-    href="/caution"
+    href="/hello"
     onClick={[Function]}
   >
     Caution

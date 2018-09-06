@@ -16,6 +16,6 @@ export default () => (
         }
       `}</style>
     </React.Fragment>
-    <Link href='/caution'><a>Caution</a></Link>
+    <Link href='/hello'><a>Caution</a></Link>
   </React.Fragment>
 )

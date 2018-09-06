@@ -3,12 +3,10 @@
 exports[`page Caution 1`] = `
 Array [
   <h1>
-    Caution
+    Hello!
   </h1>,
   <p>
-    If you add or remove some pages, 
-    <br />
-    you need to edit exportPathMap() in next.config.js before exporting.
+    You're welcome.
   </p>,
   <a
     href="/start"

@@ -16,6 +16,6 @@ test('application title', async () => {
   expect(await app.client.getTitle()).toBe('Home')
 })
 
-test('go to Caution', async () => {
-  expect(await app.client.element('a').click().getTitle()).toBe('Caution')
+test('go to Hello', async () => {
+  expect(await app.client.element('a').click().getTitle()).toBe('Hello')
 })
