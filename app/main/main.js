@@ -10,7 +10,7 @@ app.on('ready', () => {
   protocol.interceptFileProtocol('file', (req, callback) => {
     const requestedUrl = req.url.substr(7)
     if (path.isAbsolute(requestedUrl)) {
-      callback(resolve('/app/renderer/out' + requestedUrl))
+      callback(resolve(path.join('/app/renderer/out', requestedUrl)))
     } else {
       callback(requestedUrl)
     }
