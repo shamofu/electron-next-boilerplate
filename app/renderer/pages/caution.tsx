@@ -1,6 +1,6 @@
-import * as React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
+import * as React from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
 
 export default () => (
   <React.Fragment>
@@ -12,4 +12,4 @@ export default () => (
     before exporting.</p>
     <Link href='/start'><a>Back</a></Link>
   </React.Fragment>
-);
+)

@@ -1,6 +1,6 @@
-import * as React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
+import * as React from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
 
 export default () => (
   <React.Fragment>
@@ -18,4 +18,4 @@ export default () => (
     </React.Fragment>
     <Link href='/caution'><a>Caution</a></Link>
   </React.Fragment>
-);
+)
